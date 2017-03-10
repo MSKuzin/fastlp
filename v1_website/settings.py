@@ -24,7 +24,7 @@ SECRET_KEY = '(c@313@ak5oevvz^z4%kv+z)x+p!o^mn+m^oa3yau&c-rm=@t4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["boiling-mesa-63699.herokuapp.com", "127.0.0.1"]
 
 # Application definition
 
